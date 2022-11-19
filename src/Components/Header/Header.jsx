@@ -11,7 +11,15 @@ function Header() {
     <div className={"header-container"}>
       <div className={"inline-links"}>
         {" "}
-        <div className={"title"}>c-stream</div>
+        <div
+          className={"title"}
+          onClick={() => {
+            navigate("/adminDash");
+          }}
+        >
+          {" "}
+          c-stream
+        </div>
         {selectedUsers?.role === "admin" ? (
           <>
             <span className={"links"} onClick={() => navigate("/addPlan")}>
