@@ -1,0 +1,44 @@
+.banner-container-signUp {
+  color: #fff;
+}
+button {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 40px;
+  letter-spacing: 1px;
+}
+button.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+button:hover {
+  cursor: pointer;
+}
+button:disabled {
+  background-color: grey;
+  border: none;
+  cursor: none;
+}
+button:disabled:active {
+  transform: none;
+}
+.banner-container-signUp p {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  margin: 30px 25px 30px 5px;
+}

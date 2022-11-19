@@ -1,0 +1,33 @@
+.header-container {
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  padding: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inline-links {
+  display: flex;
+}
+.header-container .title {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 500;
+  font-size: x-large;
+  margin-right: 6vw;
+}
+
+.links {
+  font-weight: 500;
+  font-size: large;
+  margin-right: 10px;
+  cursor: pointer;
+  padding-left: 5px;
+  border-left: 0.5px solid #fff;
+}
+
+@media only screen and (max-width: 450px) {
+  .header-container .title {
+    display: none;
+  }
+}

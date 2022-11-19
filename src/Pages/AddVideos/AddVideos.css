@@ -1,0 +1,45 @@
+.input-container {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.input-container input {
+  background-color: #eee;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 60%;
+  margin-bottom: 3vh;
+}
+
+.input-container button {
+  margin-left: 10px;
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 20px;
+  letter-spacing: 1px;
+}
+
+.input-container button:active {
+  transform: scale(0.95);
+}
+
+.input-container button:focus {
+  outline: none;
+}
+.input-container button:hover {
+  cursor: pointer;
+}
+.input-container button:disabled {
+  background-color: grey;
+  border: none;
+  cursor: none;
+}
+.input-container button:disabled:active {
+  transform: none;
+}

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  /* width: 50%; */
+  /* margin: 1vw; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 25.75em;
+  min-height: 25.75em;
+  overflow: hidden;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.vid-player-crd {
+  max-width: 400px;
+  max-height: 400px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+}
+
+.container {
+  padding: 2px 16px;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row !important;
+  flex-flow: wrap;
+}
+
+.desc {
+  margin-top: 2vh;
+}
+
+.grey {
+  background-color: rgb(219, 217, 217) !important;
+}
+.tick {
+  margin-right: -1;
+}

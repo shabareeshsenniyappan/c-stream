@@ -1,0 +1,11 @@
+.users-list {
+  width: 80%;
+  margin: 1vw auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-grey{
+    padding: 10px;
+    background-color: rgb(208, 223, 236);
+}

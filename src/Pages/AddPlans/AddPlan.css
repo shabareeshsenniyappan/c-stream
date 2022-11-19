@@ -1,0 +1,8 @@
+.pointer{
+    cursor: pointer;
+}
+.input-container .warnings {
+  font-size: 12px;
+  color: #ff4b2b;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,18 @@
+.videos-container {
+  margin: 5vw;
+  display: flex;
+}
+
+.tag {
+  margin-right: 5vw;
+}
+
+.chker {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin: 5vw;
+}
+.warn {
+  margin-left: 5vw;
+}
